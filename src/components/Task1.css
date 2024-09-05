@@ -1,0 +1,259 @@
+*{
+  margin: 0; 
+  padding: 0;
+}
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+/* 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+/* 
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}  */
+
+/* body container{
+  display: flex;
+  background-color: #61dafb;
+  justify-content: center;
+  align-items: center;
+padding-top: 30px;
+ 
+} */
+header{
+
+  height: 30px;
+  width: 100%;
+  background-color: white;
+position: fixed;
+ top:0px;
+ 
+}
+.header1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.head-logo{
+  height: 30px;
+  width: 75px;
+  /* background-color: aqua; */
+  background-image: url("wixlo.jpeg");
+  background-size: cover;
+}
+.search-box{
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+input{
+  border: none;
+border-radius: 90px;
+height: 25px;
+/* text-align: center; */
+width: 300px;
+border: 1px solid black;
+  
+}
+.head-content{
+  display: flex;
+  width:500px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  /* justify-content:  space-between; */
+/* background-color:burlywood ; */
+font-size: 15px;
+}
+.i{
+
+  display: none;
+}
+.head-content a{
+  color: black;
+  text-decoration:none;
+  
+}
+a:hover{
+  text-decoration: underline black;
+}
+.container{
+  height: 800px;
+  width: 100%;
+  display: flex;
+   
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color:cadetblue;
+  /* padding-left: 30px; */
+  justify-content: space-around;
+  background-image: url("backimage.jpg");
+background-size: cover;
+ 
+
+  /* background-color: rgb(221, 32, 32); */
+}
+.box1{
+   
+    height: 300px; 
+  width: 400px; 
+background-color: #61dafb;
+background-image: url("image1.jpg");
+background-size: cover;
+}
+.box2{
+   height: 300px; 
+  width: 400px;
+  background-color: rgb(155, 216, 12);
+  background-image: url("image2.jpg");
+background-size: cover;
+}
+.box3{
+   height: 300px; 
+  width: 400px;
+  background-color:blueviolet;
+  background-image: url("image3.jpg");
+background-size: cover;
+}
+footer{
+  /* display: flex; */
+  height: 100%px;
+  width: 100%;
+   /* margin-top: 60px; */
+  background-color: #abadb1;
+  /* justify-content: center; */
+
+}
+.footer-b1{
+  height: 100%;
+  width: 100%;
+   
+  /* background-color: rgb(28, 201, 207); */
+}
+
+@media (max-width:644px) {
+  .container{
+   width: 100vw;
+   height: 100vw;
+   overflow: auto black;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+    overflow-x:auto;
+  }
+  header{
+    position: fixed;
+     
+  }
+  .header1{display: flex;
+     /* position: fixed; */
+      align-content: flex-start;
+      /* padding-right: 80px; */
+       width: 100%;
+       
+      }
+ 
+  .head-content{
+  width: 100px;
+   /* padding-right: 20px; */
+   display: none;
+   
+  }
+  .head-content a{
+    
+    font-size: 20vw;
+    /* margin-left: 3px; */
+      
+  }
+  .box4{
+    height: 100%;
+    width: 100%;
+  }
+  footer{
+    width: 100%;
+    height: fit-content;
+  }
+  header{
+    width: 100%;
+  }
+input{
+  width: 50vw;
+   
+}
+ 
+.i {
+  display: block;
+  margin-right: 10px;
+}
+ 
+}
+@media  (min-width:644px){
+  .container{
+    width: 100%;
+    overflow: auto black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+     overflow: auto;
+      /* background-image: none; */
+   }
+ .box4{
+  height: 100%;
+  width: 100%;
+}
+
+input{
+  width: 20vw;
+   
+}
+.head-content{
+  display: flex;
+  width:50vw;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  /* justify-content:  space-between; */
+/* background-color:burlywood ; */
+font-size: 15px;
+}
+.head-content a{
+  padding: 5vw;
+   
+}
+
+    
+} 

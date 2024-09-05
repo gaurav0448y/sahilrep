@@ -1,0 +1,70 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+table{
+    width:100%;
+    padding: 0x;
+}
+thead{
+    background-color: rgb(233, 233, 233);
+}
+td, th{
+    height:50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+td{
+    background-color: white;
+    border-bottom: 5px solid rgb(218, 218, 218);
+}
+th{
+    border:2px solid rgb(218, 218, 218);
+    margin: 0px;
+}
+select{
+    border: none;
+}
+select[name="Fulfilled"]{
+    background-color: blueviolet;
+    color:white;
+    width:70px;
+}
+select[name="Authorized"]{
+    background-color: green;
+    color:white;
+    width:90px;
+}
+select[name="Paid"]{
+    background-color: orange;
+    color:white;
+    width:50px;
+}
+select[name="Pending-Reciept"]{
+    background-color: green;
+    color:white;
+    width:130px;
+}
+select[name="Unfulfilled"]{
+    background-color: orange;
+    color:white;
+    width:85px;
+}
+.tb{
+    border: 10px solid rgb(218, 218, 218);
+}
+input{
+    margin-right:10px;
+}
+.pic{
+    height:20px;
+    width:20px;
+    display: inline-block;
+    border-radius: 20px;
+    /* background-image: url("C:\Users\sahil\OneDrive\Desktop\day1\public\img\srr.jpg"); */
+    background-size: cover;
+    margin-right: 10px;
+}
+.nm{
+    display: inline-block;
+}
